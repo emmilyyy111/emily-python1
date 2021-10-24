@@ -17,3 +17,5 @@ age2 = ages.copy()
 print(age2)
 
 
+
+
