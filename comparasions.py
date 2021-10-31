@@ -8,4 +8,4 @@ def max_num(num1, num2, num3):
     else:
         return num3
 
-# print(max_num(3,1,8))
+print(max_num(3,1,8))
