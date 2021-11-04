@@ -1,7 +1,7 @@
-
-dogs = [ "brinx", "benji", "lola" ]
-for index in range(10):
-    print(index)
+#
+# dogs = [ "brinx", "benji", "lola" ]
+# for index in range(10):
+#     print(index)
 
 
 # for name in dogs:
@@ -13,5 +13,14 @@ for index in range(10):
 
 # for letter in "Brinx is a German Shephard":
 #     print(letter)
+
+#  power functions
+def raise_to_power(base_num, pow_num):
+    result = 1
+    for index in range(pow_num):
+        result = result * base_num
+    return result
+
+print(raise_to_power(3,2))
 
 
