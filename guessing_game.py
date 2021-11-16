@@ -4,7 +4,7 @@ guess_count = 0
 guess_limit = 3
 out_of_guesses = False
 
-
+# continue lopping if both the user forgot password and isnt out of guesses
 while guess != users_forgotten_password and not (out_of_guesses):
     if guess_count < guess_limit:
         guess = input("Enter password: ")
